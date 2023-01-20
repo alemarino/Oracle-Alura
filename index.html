@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Codificador - Decodificador</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="caja">
+            <img src="./images/Logo.png" alt="Logo Barbería Alura">
+        </div>
+    </header>
+
+    <div class="contenedor">
+
+        <div class="mensajeBotones">
+            <div class="mensajeAEncriptar">
+                <textarea name="mensajeNuevo" id="mensaje" cols="30" rows="20" class="areaTexto" required
+                    placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+
+            <div class="botones">
+                <p><img src="./images/Advertencia.png" alt="" width="2%"> Solo letras minúsculas y sin acentos</p>
+                <br>
+                <button id="encriptador" class="enviarEncriptar">Encriptar</button>
+                <button id="desencriptador" class="enviarDesencriptar">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="cuadroDerecha">
+
+            <div class="imagenDerecha" id="img">
+                <img src="./images/Muñeco.png" alt="Muñeco" width="90%">
+            </div>
+
+            <textarea name="dondePegar" id="dondePegar" cols="20" rows="7" class="dondePegar"></textarea>
+
+            <div class="textoDer" id="textoDer">
+                <br>
+                <h2>Ningún Mensaje fue encontrado</h2>
+                <br>
+                <p>Ingresá el texto que deseas encriptar o desencriptar</p>
+            </div>
+
+            <button id="copiador" class="BotonCopiar">Copiar</button>            
+
+        </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
