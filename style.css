@@ -175,6 +175,35 @@ ESTO ES PARA CONFIGURAR COMO SE VE EN TABLET, HASTA 820PX
             padding: 0;
         }
 
+        .enviarEncriptar{
+            width: 50%;
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background: #143371;
+            border: none;
+            border-radius: 20px;
+            transition: 1s all;
+            cursor: pointer;
+            border: 1px solid #0A3871;
+            margin-bottom: 5px;
+        }
+        
+        .enviarDesencriptar{
+            width: 50%;
+            padding: 15px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background: #d8dfe8;
+            border: 1px solid #0A3871;
+            border-radius: 20px;
+            transition: 1s all;
+            cursor: pointer;
+            margin-bottom: 10px;    
+        }
+
         .BotonCopiar{            
             display: none;
             width: 100%;
